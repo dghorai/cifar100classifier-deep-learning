@@ -1,9 +1,16 @@
 import os
 
-from flask import Flask, request, jsonify, render_template
+try:
+    import sys
+    sys.path.append('src')
+except:
+    pass
+
 from flask_cors import CORS, cross_origin
-from src.CNNClassifier.utils.utilities import decode_image
-from src.CNNClassifier.pipeline.predict import PredictionPipeline
+from flask import Flask, request, jsonify, render_template
+
+from CNNClassifier.pipeline.predict import PredictionPipeline
+from CNNClassifier.utils.utilities import decode_image
 
 
 os.putenv('LANG', 'en_US.UTF-8')
