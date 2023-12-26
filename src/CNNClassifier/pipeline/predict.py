@@ -3,9 +3,9 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 
-from src.CNNClassifier.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
-from src.CNNClassifier.utils.utilities import read_yaml
-from src.CNNClassifier.config.configuration import ConfigurationManager
+from CNNClassifier.constants import CONFIG_FILE_PATH, PARAMS_FILE_PATH
+from CNNClassifier.utils.utilities import read_yaml
+from CNNClassifier.config.configuration import ConfigurationManager
 
 
 class PredictionPipeline:

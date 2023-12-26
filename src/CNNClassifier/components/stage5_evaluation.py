@@ -3,8 +3,8 @@ import pickle
 import tensorflow as tf
 
 from pathlib import Path
-from src.CNNClassifier.entity import EvaluationConfig
-from src.CNNClassifier.utils.utilities import save_json
+from CNNClassifier.entity import EvaluationConfig
+from CNNClassifier.utils.utilities import save_json
 
 
 class Evaluation:

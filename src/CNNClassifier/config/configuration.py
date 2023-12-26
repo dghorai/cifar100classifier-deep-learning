@@ -3,9 +3,9 @@ import shutil
 
 from pathlib import Path
 
-from src.CNNClassifier.constants import *
-from src.CNNClassifier.utils.utilities import read_yaml, create_directory
-from src.CNNClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, PrepareCallbacksConfig, TrainingConfig, EvaluationConfig, PredictConfig
+from CNNClassifier.constants import *
+from CNNClassifier.utils.utilities import read_yaml, create_directory
+from CNNClassifier.entity.config_entity import DataIngestionConfig, PrepareBaseModelConfig, PrepareCallbacksConfig, TrainingConfig, EvaluationConfig, PredictConfig
 
 
 class ConfigurationManager:

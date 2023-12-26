@@ -1,6 +1,6 @@
 import unittest
 
-from src.CNNClassifier.pipeline.predict import PredictionPipeline
+from CNNClassifier.pipeline.predict import PredictionPipeline
 
 
 class PredictTestCase(unittest.TestCase):

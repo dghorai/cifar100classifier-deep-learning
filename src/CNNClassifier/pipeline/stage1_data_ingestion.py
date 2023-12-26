@@ -1,6 +1,6 @@
-from src.CNNClassifier import logger
-from src.CNNClassifier.config.configuration import ConfigurationManager
-from src.CNNClassifier.components.stage1_data_ingestion import DataIngestion
+from CNNClassifier import logger
+from CNNClassifier.config.configuration import ConfigurationManager
+from CNNClassifier.components.stage1_data_ingestion import DataIngestion
 
 
 STAGE_NAME = "DATA INGESTION STAGE"

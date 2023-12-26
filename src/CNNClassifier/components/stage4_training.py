@@ -3,7 +3,7 @@ import pickle
 import tensorflow as tf
 
 from pathlib import Path
-from src.CNNClassifier.entity import TrainingConfig
+from CNNClassifier.entity import TrainingConfig
 
 
 class Training:

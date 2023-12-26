@@ -19,141 +19,38 @@
 
 <pre>
 CNN-Classifier
-│   .dvcignore
-│   .gitignore
-│   app.py
-│   Dockerfile
-│   dvc.yaml
-│   init_setup.sh
-│   LICENSE
-│   main.py
-│   params.yaml
-│   pyproject.toml
-│   README.md
-│   requirements.txt
-│   requirements_dev.txt
-│   scores.json
-│   setup.cfg
-│   setup.py
-│   template.py
-│   tox.ini
-│   
 ├───.dvc
-│   │   .gitignore
-│   │   config
-│   │   
-│   └───tmp
-│           lock
-│           rwlock
-│           rwlock.lock
-│
 ├───.github
 │   └───workflows
-│           .gitkeep
-│           main.yaml
-│
+├───.vscode
 ├───artifacts
 │   ├───data_ingestion
-│   │   │   cifar-100-python.tar.gz
-│   │   │   cifar100_trainset_info.csv
-│   │   │
 │   │   └───cifar-100-python
-│   │           file.txt~
-│   │           meta
-│   │           test
-│   │           train
-│   │
-│   ├───predict
-│   │       best_model.h5
-│   │       cifar100_trainset_info.csv
-│   │
-│   ├───prepare_base_model
-│   │       base_model.h5
-│   │       base_model_updated.h5
-│   │
-│   ├───prepare_callbacks
-│   │   ├───checkpoint_dir
-│   │   │       model.h5
-│   │   │
-│   │   └───tensorboard_log_dir
-│   │       └───tb_logs_at_2023-10-24-15-20-12
-│   │           ├───train
-│   │           │
-│   │           └───validation
-│   │
-│   └───training
-│           model.h5
-│
+│   └───predict
 ├───configs
-│       config.yaml
-│
 ├───logs
-│       running_logs.log
-│
 ├───research
-│       stage1_data_ingestion.ipynb
-│       stage2_prepare_base_model.ipynb
-│       stage3_prepare_callbacks.ipynb
-│       stage4_training.ipynb
-│       stage5_model_evaluation.ipynb
-│       trials.ipynb
-│
 ├───src
 │   └───CNNClassifier
-│       │   __init__.py
-│       │
 │       ├───components
-│       │       stage1_data_ingestion.py
-│       │       stage2_prepare_base_model.py
-│       │       stage3_prepare_callbacks.py
-│       │       stage4_training.py
-│       │       stage5_evaluation.py
-│       │       __init__.py
-│       │
+│       │   └───__init__.py
 │       ├───config
-│       │       configuration.py
-│       │       __init__.py
-│       │       
+│       │   └───__init__.py
 │       ├───constants
-│       │       __init__.py
-│       │
+│       │   └───__init__.py
 │       ├───entity
-│       │       config_entity.py
-│       │       __init__.py
-│       │
+│       │   └───__init__.py
 │       ├───pipeline
-│       │       predict.py
-│       │       stage1_data_ingestion.py
-│       │       stage2_prepare_base_model.py
-│       │       stage3_training.py
-│       │       stage4_evaluation.py
-│       │       __init__.py
-│       │
-│       └───utils
-│               utilities.py
-│               __init__.py
-│
+│       │   └───__init__.py
+│       ├───utils
+│       │   └───__init__.py
+│       └───__init__.py
 ├───static
-│   │   logo.png
-│   │
 │   └───image
-│           sample.jpg
-│
 ├───templates
-│       index.html
-│
 └───tests
-    │   input_image.jpg
-    │   __init__.py
-    │
     ├───integration
-    │       test_integration.py
-    │       __init__.py
-    │
     └───unit
-            test_inferencing.py
-            test_unit.py
-            __init__.py
 </pre>
 
 ### Run this application:

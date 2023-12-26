@@ -1,7 +1,7 @@
-from src.CNNClassifier import logger
-from src.CNNClassifier.config.configuration import ConfigurationManager
-from src.CNNClassifier.components.stage3_prepare_callbacks import PrepareCallback
-from src.CNNClassifier.components.stage4_training import Training
+from CNNClassifier import logger
+from CNNClassifier.config.configuration import ConfigurationManager
+from CNNClassifier.components.stage3_prepare_callbacks import PrepareCallback
+from CNNClassifier.components.stage4_training import Training
 
 
 STAGE_NAME = "TRAINING"

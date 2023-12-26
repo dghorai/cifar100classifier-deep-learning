@@ -11,7 +11,7 @@ from box import ConfigBox
 from box.exceptions import BoxValueError
 from typing import Any
 from pathlib import Path
-from src.CNNClassifier import logger
+from CNNClassifier import logger
 
 
 @ensure_annotations

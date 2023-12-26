@@ -2,7 +2,7 @@ import os
 import time
 import tensorflow as tf
 
-from src.CNNClassifier.entity import PrepareCallbacksConfig
+from CNNClassifier.entity import PrepareCallbacksConfig
 from livelossplot.inputs.keras import PlotLossesCallback
 
 

@@ -1,8 +1,10 @@
-from src.CNNClassifier import logger
-from src.CNNClassifier.pipeline.stage1_data_ingestion import DataIngestionPipeline
-from src.CNNClassifier.pipeline.stage2_prepare_base_model import PrepareBaseModelPipeline
-from src.CNNClassifier.pipeline.stage3_training import ModelTrainingPipeline
-from src.CNNClassifier.pipeline.stage4_evaluation import ModelEvaluationPipeline
+import sys
+sys.path.append('src')
+from CNNClassifier import logger
+from CNNClassifier.pipeline.stage1_data_ingestion import DataIngestionPipeline
+from CNNClassifier.pipeline.stage2_prepare_base_model import PrepareBaseModelPipeline
+from CNNClassifier.pipeline.stage3_training import ModelTrainingPipeline
+from CNNClassifier.pipeline.stage4_evaluation import ModelEvaluationPipeline
 
 
 logger.info("Logger import successfull!")

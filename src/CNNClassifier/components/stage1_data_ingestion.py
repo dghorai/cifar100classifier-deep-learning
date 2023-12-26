@@ -10,9 +10,9 @@ import pandas as pd
 # from pathlib import Path
 # from tqdm import tqdm
 from collections import defaultdict
-from src.CNNClassifier import logger
-from src.CNNClassifier.entity import DataIngestionConfig
-from src.CNNClassifier.utils.utilities import *
+from CNNClassifier import logger
+from CNNClassifier.entity import DataIngestionConfig
+from CNNClassifier.utils.utilities import *
 
 
 class DataIngestion:
